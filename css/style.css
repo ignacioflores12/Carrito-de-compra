@@ -1,0 +1,95 @@
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    color:white ;
+}
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    border:none;
+    
+ 
+   
+    
+}
+.tarjeta:hover {
+   transform: scale(1.1);
+}
+.tarjeta img {
+    width: 30%;
+    box-shadow: 1px 1px 5px gray;
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: rgb(2, 61, 170);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+  }
+
+#inicio {
+
+    padding : 5px;
+    
+    color : white;
+    
+   }
+
+#inicio ul {
+
+
+position: relative;
+top: 5px; left: 770px;
+
+}
+   
+body {
+
+
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+
+
+}
+#container {
+
+    color: white;
+}
+
+ul a {
+
+
+    color: rgb(255, 255, 255);
+    font-family:Georgia, 'Times New Roman', Times, serif
+    
+}
+
+h1 {
+
+    font-size: 30px;
+    text-align: center;
+    color: white;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+ 
+}
+
+#finalizar {
+    position: relative;
+    top: 5px; left: 770px;
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+
+}
+#totalText {
+    position: relative;
+top: 5px; left: 770px;
+
+}
+
